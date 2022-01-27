@@ -1,0 +1,41 @@
+body{
+  background-color: #e0fad7;
+}
+
+.text_field{
+  border: 2px;
+  border-radius: 4px;
+  width: 74%;
+  padding: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main_field{
+  padding: 1%;
+  width: 30%;
+  margin-left: 35%;
+  background-color: rgba(231, 148, 103, 0.82);
+  border-radius: 20px;
+}
+
+.button{
+  background: snow;
+  border-radius: 4px;
+  padding: 9px 10px;
+  color:#7f7f7f;
+  text-decoration: none;
+  border:1px solid #a7a7a7;
+  width: 24%;
+  position: relative;
+}
+
+.button:active{
+  background: #555555;
+}
+.message_field{
+  background-color: rgba(231, 148, 103, 0.82);
+  min-width: 90%;
+  min-height: 550px;
+  word-break:break-all;
+}
