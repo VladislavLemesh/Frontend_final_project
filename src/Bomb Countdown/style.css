@@ -1,0 +1,24 @@
+
+.main_timer_field {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+.bomb_timer {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.time {
+    font-size: 8em;
+}
+
+.bomb_start {
+    display: block;
+    width: 200px;
+    height: 70px;
+    font-size: large;
+    margin: auto;
+}
