@@ -4,9 +4,6 @@ import Icon from './Crown.svg'
 import AddCrown from './Crown'
 
 
-AddCrown(Icon);
-
-
 let point = document.getElementById("point")
 
 point.addEventListener('mouseover', function( event ) {
@@ -16,6 +13,7 @@ point.addEventListener('mouseover', function( event ) {
 point.addEventListener('mouseout', function( event ) {
     event.target.style.color = "#826C17";
 })
+AddCrown(Icon);
 
 
 
