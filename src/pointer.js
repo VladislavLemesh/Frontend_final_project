@@ -1,5 +1,11 @@
 import './style.css'
 import './Games/style.css'
+import Icon from './Crown.svg'
+import AddCrown from './Crown'
+
+
+AddCrown(Icon);
+
 
 let point = document.getElementById("point")
 
